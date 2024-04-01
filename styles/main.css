@@ -112,7 +112,7 @@ html {
 
     }
     .service-box{
-        padding: 25px !important;
+        padding: 20px !important;
         border-radius: 0px !important;
     }
     .service-box ul{
@@ -121,6 +121,10 @@ html {
 
     .contact-block div{
         margin-left: 0px !important;
+    }
+
+    .collapse ul{
+        margin-left:20px;
     }
 
 
