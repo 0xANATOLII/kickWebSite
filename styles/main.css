@@ -101,7 +101,7 @@ html {
     }
 
     .smaller-text li{
-        font-size: 15pt;
+        font-size: 14pt!important;
     }
 
     .service-box ul li{
@@ -127,6 +127,9 @@ html {
         margin-left:20px;
     }
 
+    .smaller-text h4{
+        font-size: 14pt!important;
+    }
 
 
 }
