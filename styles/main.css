@@ -1,0 +1,263 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgba(23, 26, 36, 1);
+}
+
+
+.bg-w{
+    background-color: white;
+}
+.bg-red{
+    background-color: rebeccapurple;
+    height: 100px;
+}
+.vh-100 {
+    height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+.vh-80 {
+    height: 80vh;
+}
+.wcol{
+    color: white;
+}
+.m-0{
+    margin:0px;
+}
+.p-0{
+    padding:0px;
+}
+.head{
+    background-image: url('../assets/head.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+
+
+}
+.nav-menu{
+}
+.collapse img{
+    height: 100px;
+}
+.menu_height_Big{
+    animation: sizingBig 0.2s ease ;
+
+}
+.menu_height_Small{
+    animation: sizingSmall 0.2s ease ;
+
+}
+.navbar {
+    color:white;
+    margin: 0 auto;
+}
+/*
+.logo {
+    position: absolute;
+    top:5%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 10%;
+    width: auto;
+}*/
+.navbar .navbar-nav .nav-link {
+    color: white !important; /* Change color to white */
+    font-size: 24pt !important;
+    text-shadow: 2px 2px 0px black;
+}
+
+.navbar-toggler svg{
+   width: 40px;
+   height: 40px;
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+.bg-b{
+    background-color:rgba(23, 26, 36, 1);
+}
+@media only screen and (min-width: 100px) and (max-width: 768px){
+
+    .navbar{
+        background-color: rgba(23, 26, 36, 1) !important;
+    }
+    .navbar .navbar-nav .nav-link {
+        color: white !important;
+        text-shadow: none;
+    }
+    .logo {
+    max-height: 50px;
+    max-width: 50px;
+    }
+    .smaller-text h1{
+        font-size: 25pt;
+    }
+
+    .smaller-text li{
+        font-size: 15pt;
+    }
+
+    .service-box ul li{
+        font-size: 25px;
+        text-wrap: unset;
+        white-space: normal;
+        overflow-wrap: break-word;
+
+    }
+    .service-box{
+        padding: 25px !important;
+        border-radius: 0px !important;
+    }
+    .service-box ul{
+        padding: 0px !important;
+    }
+
+    .contact-block div{
+        margin-left: 0px !important;
+    }
+
+
+
+}
+
+
+.colr{
+    background-color: red;
+    color: deepskyblue;
+}
+.colr2{
+    background-color: blue;
+    color: pink;
+}
+
+h1{
+    font-size:40pt;
+}
+
+h3{
+    font-size: 25pt;
+}
+
+.hgt{
+    height: 60%;
+}
+
+.lineBlock{
+display: inline-block;
+font-size: 20px;
+    text-transform: uppercase;
+
+}
+.lineBlock div{
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.services{
+    background-image: url('../assets/prices.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+
+
+}
+
+.service-box{
+    background-color:rgba(23, 26, 36, 1);
+    height: auto;
+    padding: 30px 10px;
+    border-radius: 10px;
+    font-size: 18pt;
+}
+
+.service-box ul{
+    list-style-type: none;
+
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+
+.card img{
+    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.modal-body{
+    height: 90vh;
+    padding: 0px;
+}
+.modal-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6110819327731092) 0%, rgba(0,0,0,0.8435749299719888) 100%);
+}
+
+#closebtn{
+    background-color: red;
+    font-size: 20pt;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+}
+
+.contacts{
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color:rgba(23, 26, 36, 1);
+    color: white;
+
+}
+.contact-block div{
+    margin-left: 10%;
+}
+.contact-block ul{
+
+    font-size:20pt;
+}
+.img-cont img{
+    background-size: contain;
+
+}
+
+.devInfo p{
+    font-size: 18pt;
+    color: #9DA4BD;
+    margin: 0;
+    line-height: 50px;
+}
+.ps{
+    font-size: 18pt;
+    color: #9DA4BD;
+    line-height: 50px;
+
+
+}
+.ps p{
+    text-align: center;
+
+}
+.bg-foot{
+    background-color:rgba(23, 26, 36, 1);
+}
