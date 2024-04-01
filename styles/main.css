@@ -130,7 +130,10 @@ html {
     .smaller-text h4{
         font-size: 14pt!important;
     }
+    .smaller-li li{
+        line-height: 20px;
 
+    }
 
 }
 
