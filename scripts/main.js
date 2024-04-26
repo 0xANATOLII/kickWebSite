@@ -72,5 +72,27 @@ function home(){
         behavior: 'smooth'
     });
 }
+//Закрити
+let oc = false;
+function openOrClose(){
 
+    var button = document.getElementById("ocBtn");
+    const photos = document.getElementById('restPhoto');
+    if(oc){
+        //Open
+        button.innerText = "More";
+        photos.classList.remove("d-flex");
+        photos.classList.add("d-none");
+
+    }else{
+        button.innerText = "Close";
+        photos.classList.add("d-flex");
+        photos.classList.remove("d-none");
+
+
+
+    }
+    oc=!oc
+
+}
 
