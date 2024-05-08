@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var closeBtn = document.getElementById("closebtn");
 
     function openImg(src) {
-    if(!isPhone()) {
+    //if(!isPhone()) {
         imgSet = document.getElementById('modalImg');
         imgSet.src = src;
         modal.style.display = "block";
-    }
+    //}
     }
 
     closeBtn.onclick = function() {
