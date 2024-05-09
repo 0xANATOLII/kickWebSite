@@ -78,14 +78,16 @@ function openOrClose(){
 
     var button = document.getElementById("ocBtn");
     const photos = document.getElementById('restPhoto');
+    const more = document.getElementById('more').innerText;
+    const less = document.getElementById('less').innerText;
     if(oc){
         //Open
-        button.innerText = "More";
+        button.innerText = more;
         photos.classList.remove("d-flex");
         photos.classList.add("d-none");
 
     }else{
-        button.innerText = "Close";
+        button.innerText = less;
         photos.classList.add("d-flex");
         photos.classList.remove("d-none");
 
